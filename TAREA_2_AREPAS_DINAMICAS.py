@@ -78,6 +78,6 @@ Se determina el volumen total despues de la perdida
 volumen_de_la_arepa_sin_perdida=cantidad_de_agua_ml+cantidad_de_harina_pan_ml+cantidad_de_sal_ml+cantidad_de_aceite_ml
 volumen_de_la_arepa_con_perdida=volumen_de_la_arepa_sin_perdida*0.90
 
-print(f"El volumen de la masa al finalizar será de {volumen_de_la_arepa_con_perdida} ml")
+print(f"El volumen de la masa al finalizar será de {round(volumen_de_la_arepa_con_perdida,2)} ml")
 
 input()
